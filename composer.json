@@ -72,6 +72,12 @@
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+        ],
+        "pint": [
+            "./vendor/bin/pint"
+        ],
+        "test" : [
+            "@php artisan test"
         ]
     },
     "extra": {
